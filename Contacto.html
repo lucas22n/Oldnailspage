@@ -1,0 +1,77 @@
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" type="text/css" href="Contacto.css">
+  <link rel="stylesheet" type="text/css" href="Menu.css">
+  <link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@700&display=swap" rel="stylesheet">
+  <script src="a076d05399.js" crossorigin="anonymous"></script>
+  <title>LuNails</title>
+
+  <!-- Enlace al documento css. no aplicable en codepen.
+  <link rel="stylesheet" type="text/css" href="contact-form.css">
+-->
+  
+  </head>
+
+
+<body>  
+
+  <!-- formulario de contacto en html y css -->  
+
+  <section>
+  <a href="index.html" id="logo">LuNails</a>
+
+  <label for="toggle-1" class="toggle-menu"><ul><li></li> <li></li> <li></li></ul></label>
+  <input type="checkbox" id="toggle-1">
+
+  <nav>
+    <ul>
+      <li><a href="index.html"><i class="fas fa-home"></i>Home</a></li>
+      <li><a href="Portafolio.html"><i class="fas fa-camera-retro"></i>Portafolio</a></li>
+      <li><a href="Pedido.html"><i class="fas fa-calendar-alt"></i>Pedido</a></li>
+      <li><a href="#"><i class="fab fa-whatsapp-square"></i>Contacto</a></li>
+    </ul>
+  </nav>
+</section>
+<div style="width: 100%; display: flex;">
+  <div style="width: 35%;">
+    <iframe width="320" height="600" src="https://www.instagram.com/p/CO_2kllLcWx/embed" frameborder="0"></iframe>
+  </div>
+  <div class="contact_form">
+    <div class="formulario"> 
+      <h1>Formulario de contacto</h1>
+        <h3>Escribí tus datos y contactanos!</h3>
+
+
+        <form action="mailto:" method="post">       
+
+            
+                <p>
+                  <label for="nombre" class="colocar_nombre">Nombre
+                    <span class="obligatorio">*</span>
+                  </label>
+                    <input type="text" name="nombre" id="nombre" required="obligatorio" placeholder="Escribe tu nombre">
+                </p>
+              
+                <p>
+                  <label for="email" class="colocar_email">Email
+                    <span class="obligatorio">*</span>
+                  </label>
+                    <input type="email" name="email" id="email" required="obligatorio" placeholder="Escribe tu Email">
+                </p>
+                 
+                <button disabled="true" type="submit" name="enviar_formulario" id="enviar"><p>Enviar</p></button>
+
+                <p class="aviso">
+                  <span class="obligatorio"> * </span>los campos son obligatorios.
+                </p>          
+            
+          </form>
+    </div>  
+  </div>
+
+</div>
+
+
+</body>
+</html>
